@@ -1,0 +1,23 @@
+{
+  "name": "sw-api-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/3ralon/XprojectsXdays/sw-api-express"
+  },
+  "keywords": [
+    "Star",
+    "Wars",
+    "3ralon",
+    "API",
+    "Express",
+    "JavaScript"
+  ],
+  "author": "Alberto Perea León - 3ralon",
+  "license": "ISC"
+}
