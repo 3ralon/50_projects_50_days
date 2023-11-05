@@ -1,0 +1,23 @@
+### Homepage
+GET http://localhost:3000
+
+### All starships
+GET http://localhost:3000/starships
+
+### Get one ship
+GET http://localhost:3000/starships/cr90corvette
+
+### Create new ship
+POST http://localhost:3000/starships
+Content-Type: application/json
+
+{
+    "name": "nueva nave",
+    "model": "nuevo modelo",
+    "manufacturers": "3ralon",
+    "cost_in_credits": 3500000,
+    "length": 100,
+    "max_atmosphering_speed": 250,
+    "crew": "1-20",
+    "passengers": "1"
+}
